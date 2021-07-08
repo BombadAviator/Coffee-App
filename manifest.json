@@ -3,28 +3,53 @@
     "name": "Coffee Collective Timer",
     "icons": [
         {
-            "src": "./images/iPhone_Spotlight_40_2x.png",
+            "src": "https://brandstrum.com/1024.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "https://levimardis.github.io/Coffee-App/apple-touch-icon-80x80.png",
             "type": "image/png",
             "sizes": "80x80"
         },
         {
-            "src": "./images/iPhone_App_60_2x.png",
+            "src": "https://levimardis.github.io/Coffee-App/apple-touch-icon-120x120.png",
             "type": "image/png",
             "sizes": "120x120"
         },
         {
-            "src": "./iPhone_App_60_3x.png",
+            "src": "https://levimardis.github.io/Coffee-App/apple-touch-icon-114x114.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "https://levimardis.github.io/Coffee-App/apple-touch-icon-152x152.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "https://levimardis.github.io/Coffee-App/apple-touch-icon-180x180.png",
             "type": "image/png",
             "sizes": "180x180"
         },
         {
-            "src": "./images/maskable_icon.png",
+            "src": "https://levimardis.github.io/Coffee-App/apple-touch-icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "https://levimardis.github.io/Coffee-App/apple-touch-icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "https://levimardis.github.io/Coffee-App/images/maskable_icon.png",
             "type": "image/png",
             "sizes": "180x180",
             "purpose": "any maskable"
         }
     ],
-    "start_url": "/index.html",
+    "start_url": "index.html",
     "background_color": "#13171F",
     "display": "standalone",
     "theme_color": "#13171F"

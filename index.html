@@ -2,20 +2,28 @@
 <html lang="en" dir="ltr">
   <head>
     <title>Coffee Timer App</title>
-    <link rel=”apple-touch-icon” href=”./iPhone_App_60_3x.png” />
-    <link rel="shortcut icon" href="./images/favicon.ico"/>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/favicon.ico"/>
     <link rel="stylesheet" href="./style.css" media="screen" />
-    <link rel="manifest" href="./manifest.json">
+    <link rel="manifest" href="./manifest.json" crossorigin="use-credentials">
     <script>
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('sw.js')
       }
     </script>
+    <meta name="theme-color" content="#13171F"/>
+    <!-- iOS web app configuration -->
     <meta name="apple-touch-fullscreen" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
-    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-title" content="Coffee Timer"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="#13171F" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <!-- iOS web app icons -->
+    <link rel="apple-touch-icon" sizes="192x192" href="https://brandstrum.com/1024.png">
+    <link rel=”apple-touch-icon” sizes="192x192" href=”https://levimardis.github.io/Coffee-App/apple-touch-icon-192x192.png”/>
+    <link rel=”apple-touch-icon” sizes="180x180" href=”https://levimardis.github.io/Coffee-App/apple-touch-icon-180x180.png”/>
+    <link rel=”apple-touch-icon” sizes="152x152" href=”https://levimardis.github.io/Coffee-App/apple-touch-icon-152x152.png”/>
+    <link rel=”apple-touch-icon” sizes="120x120" href=”https://levimardis.github.io/Coffee-App/apple-touch-icon-120x120.png”/>
   </head>
 
 <body>
@@ -29,7 +37,7 @@
     </div>
 
     <div>
-      <p>COFFEE (g)</p>
+      <p>COFFEE&nbsp;<span>GRAMS</span></p>
       <div id="coffee-slider" class="slider">
         <span><img src="./images/left.svg" alt=""></span>
         <p id="pre-coffee"></p>
@@ -51,7 +59,7 @@
     </div>
 
     <div>
-      <p>WATER (g)</p>
+      <p>WATER&nbsp;<span>GRAMS</span></p>
       <div id="water-slider" class="slider">
         <span></span>
         <p id="pre-water"></p>
